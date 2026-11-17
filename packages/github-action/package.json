@@ -1,0 +1,23 @@
+{
+  "name": "@vexor/github-action",
+  "version": "1.0.0",
+  "description": "Official GitHub Action for Vexor Video: upload, transcode, import, and preview videos in CI/CD.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/action.test.mjs"
+  },
+  "keywords": [
+    "vexor",
+    "video",
+    "github-action",
+    "ci-cd",
+    "hls",
+    "transcoding"
+  ],
+  "author": "Vexor <support@vexor.et>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

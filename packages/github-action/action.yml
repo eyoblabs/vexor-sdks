@@ -1,0 +1,71 @@
+name: 'Vexor Video Pipeline'
+description: 'Upload, transcode, import, and preview high-performance HLS video streams with Vexor in your CI/CD workflows.'
+author: 'Vexor'
+branding:
+  icon: 'video'
+  color: 'orange'
+
+inputs:
+  api_key:
+    description: 'Vexor API key (e.g. vx_live_...)'
+    required: true
+  api_url:
+    description: 'Official Vexor API origin (https://api.vexor.et; custom hosts are rejected)'
+    required: false
+    default: 'https://api.vexor.et'
+  video_path:
+    description: 'Local file path to the video to upload (e.g. assets/demo.mp4)'
+    required: false
+  connection_id:
+    description: 'UUID of an active storage connection to import from (AWS S3, GCP, Azure, or Oracle)'
+    required: false
+  object_key:
+    description: 'Cloud object key or URI in the connected bucket to import'
+    required: false
+  filename:
+    description: 'Optional display filename for the video asset'
+    required: false
+  wait_for_ready:
+    description: 'Wait until video transcoding finishes before completing the step (true/false)'
+    required: false
+    default: 'true'
+  timeout_minutes:
+    description: 'Maximum minutes to wait for video processing'
+    required: false
+    default: '15'
+  enhance_upscale:
+    description: 'Enable AI enhancement and resolution upscaling (true/false)'
+    required: false
+    default: 'false'
+  enhance_tier:
+    description: 'AI upscale target resolution tier (e.g. 1080p, 4k)'
+    required: false
+    default: 'none'
+  comment_on_pr:
+    description: 'Post or update an interactive video preview comment on the Pull Request (true/false)'
+    required: false
+    default: 'false'
+  github_token:
+    description: 'GitHub token with pull-requests:write permission for PR commenting'
+    required: false
+    default: ${{ github.token }}
+
+outputs:
+  asset_id:
+    description: 'The unique UUID of the created Vexor video asset'
+  state:
+    description: 'Final asset processing state (ready, transcoding, failed)'
+  playback_url:
+    description: 'Adaptive HLS master manifest streaming URL (master.m3u8)'
+  embed_url:
+    description: 'Direct responsive web player embed URL'
+  embed_iframe:
+    description: 'HTML iframe embed snippet ready to paste into documentation'
+  thumbnail_url:
+    description: 'URL of the generated poster frame thumbnail image'
+  duration_seconds:
+    description: 'Total video duration in seconds'
+
+runs:
+  using: 'node20'
+  main: 'src/index.js'

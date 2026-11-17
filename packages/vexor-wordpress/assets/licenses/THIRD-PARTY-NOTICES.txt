@@ -1,0 +1,8 @@
+# Third-party notices
+
+The bundled browser player in `assets/js/vexor-player.min.js` and `assets/js/vexor-player.js` contains code from:
+
+- **@vexor-video/player** — Copyright (c) 2026 Vexor; MIT License. Source: https://github.com/eyob13-coder/Vexor-/tree/main/packages/player. See `assets/licenses/vexor-player-MIT.txt`.
+- **hls.js** — Copyright (c) 2017-2026 Dailymotion & contributors; Apache-2.0 / MIT License. Repository: https://github.com/video-dev/hls.js. See `assets/licenses/hls.js-MIT.txt`.
+
+Both licenses permit redistribution and are compatible with distribution of this GPL-2.0-or-later WordPress plugin. Retain this notice and the included license texts when redistributing the plugin archive.

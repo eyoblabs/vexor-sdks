@@ -1,0 +1,22 @@
+{
+  "name": "@vexor/cli",
+  "version": "0.1.0",
+  "description": "Upload, process, and play videos with Vexor from your terminal.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "vexor": "./bin/vexor.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

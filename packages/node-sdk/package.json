@@ -1,0 +1,54 @@
+{
+  "name": "@vexor-video/sdk",
+  "version": "0.1.3",
+  "description": "Official Node.js and TypeScript SDK for the Vexor video API.",
+  "author": "Vexor <support@vexor.et>",
+  "license": "MIT",
+  "homepage": "https://vexor-video.vercel.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eyoblabs/Vexor-.git",
+    "directory": "packages/node-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/eyoblabs/Vexor-/issues"
+  },
+  "keywords": [
+    "vexor",
+    "video",
+    "sdk",
+    "api",
+    "hls",
+    "transcoding",
+    "telebirr",
+    "streaming",
+    "node-sdk"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist", "README.md", "CHANGELOG.md", "LICENSE"],
+  "engines": { "node": ">=20.0.0" },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}

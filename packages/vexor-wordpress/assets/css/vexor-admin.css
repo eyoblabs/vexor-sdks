@@ -1,0 +1,15 @@
+/* Vexor WordPress Admin Styles */
+
+.vexor-admin-wrap .form-table th {
+  width: 220px;
+}
+
+.vexor-admin-wrap input[type="password"],
+.vexor-admin-wrap input[type="url"],
+.vexor-admin-wrap input[type="text"] {
+  border-radius: 4px;
+}
+
+.vexor-copy-btn {
+  white-space: nowrap;
+}

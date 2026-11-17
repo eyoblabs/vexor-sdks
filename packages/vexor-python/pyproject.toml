@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vexor-video-sdk"
+version = "0.1.3"
+description = "Official Python SDK for Vexor Video Platform"
+readme = "README.md"
+authors = [{ name = "Vexor Team", email = "dev@vexor.et" }]
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+keywords = ["video", "hls", "transcoding", "streaming", "vexor", "sdk"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Video",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://vexor-video.vercel.app/"
+Documentation = "https://vexor-video.vercel.app/developers"
+Repository = "https://github.com/eyoblabs/Vexor-.git"
+Issues = "https://github.com/eyoblabs/Vexor-/issues"
