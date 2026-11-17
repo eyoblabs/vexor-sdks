@@ -18,5 +18,14 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "homepage": "https://vexor-video.vercel.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eyoblabs/-vexor-sdks.git",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/eyoblabs/-vexor-sdks/issues"
   }
 }

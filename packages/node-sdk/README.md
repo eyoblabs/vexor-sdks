@@ -2,11 +2,22 @@
   <a href="https://vexor-video.vercel.app/"><img src="https://vexor-video.vercel.app/brands/vexor-logo-256.png" alt="VEXOR" width="104"></a>
 </p>
 
-<h1 align="center">VEXOR Node.js SDK</h1>
+<h1 align="center">VEXOR Node.js & TypeScript SDK</h1>
 
-<p align="center">Video infrastructure for your Node.js and TypeScript application.</p>
+<p align="center">Official server-side video infrastructure SDK for Node.js, TypeScript, Next.js, Express, and Remix.</p>
 
-<p align="center"><a href="https://www.npmjs.com/package/@vexor-video/sdk">npm</a> · <a href="https://vexor-video.vercel.app/">VEXOR</a> · <a href="https://vexor-video.vercel.app/developers">Developer guide</a></p>
+<p align="center">
+  <a href="https://www.npmjs.com/package/@vexor-video/sdk"><img src="https://img.shields.io/npm/v/@vexor-video/sdk.svg?color=ea580c" alt="npm version"></a>
+  <a href="https://github.com/eyoblabs/-vexor-sdks/tree/main/packages/node-sdk"><img src="https://img.shields.io/badge/GitHub-eyoblabs%2F--vexor--sdks-black?logo=github" alt="GitHub Repository"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@vexor-video/sdk">npm Package</a> · 
+  <a href="https://github.com/eyoblabs/-vexor-sdks">GitHub Monorepo</a> · 
+  <a href="https://vexor-video.vercel.app/">VEXOR Console</a> · 
+  <a href="https://vexor-video.vercel.app/developers">Developer Documentation</a>
+</p>
 
 The official server-side Node.js and TypeScript client for VEXOR. It supports resumable uploads, asset lifecycle operations, playback-token issuance, customer source-storage imports, and webhook signature verification.
 

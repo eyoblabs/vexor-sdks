@@ -2,11 +2,22 @@
   <a href="https://vexor-video.vercel.app/"><img src="https://vexor-video.vercel.app/brands/vexor-logo-256.png" alt="VEXOR" width="104"></a>
 </p>
 
-<h1 align="center">VEXOR Player</h1>
+<h1 align="center">VEXOR Player (React & Vanilla JS)</h1>
 
-<p align="center">Accessible React and vanilla JavaScript playback for VEXOR video.</p>
+<p align="center">Official accessible React and Vanilla JavaScript video player for encrypted HLS streaming with dynamic watermarks.</p>
 
-<p align="center"><a href="https://www.npmjs.com/package/@vexor-video/player">npm</a> · <a href="https://vexor-video.vercel.app/">VEXOR</a> · <a href="https://vexor-video.vercel.app/developers">Developer guide</a></p>
+<p align="center">
+  <a href="https://www.npmjs.com/package/@vexor-video/player"><img src="https://img.shields.io/npm/v/@vexor-video/player.svg?color=ea580c" alt="npm version"></a>
+  <a href="https://github.com/eyoblabs/-vexor-sdks/tree/main/packages/player"><img src="https://img.shields.io/badge/GitHub-eyoblabs%2F--vexor--sdks-black?logo=github" alt="GitHub Repository"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@vexor-video/player">npm Package</a> · 
+  <a href="https://github.com/eyoblabs/-vexor-sdks">GitHub Monorepo</a> · 
+  <a href="https://vexor-video.vercel.app/">VEXOR Console</a> · 
+  <a href="https://vexor-video.vercel.app/developers">Developer Documentation</a>
+</p>
 
 The official React and Vanilla JS video player for [VEXOR](https://vexor-video.vercel.app/) token-gated HLS playback.
 

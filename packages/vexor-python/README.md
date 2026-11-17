@@ -4,9 +4,20 @@
 
 <h1 align="center">VEXOR Python SDK</h1>
 
-<p align="center">Video infrastructure for Python applications.</p>
+<p align="center">Official zero-dependency Python client for the VEXOR video platform.</p>
 
-<p align="center"><a href="https://pypi.org/project/vexor-video-sdk/">PyPI</a> · <a href="https://vexor-video.vercel.app/">VEXOR</a> · <a href="https://vexor-video.vercel.app/developers">Developer guide</a></p>
+<p align="center">
+  <a href="https://pypi.org/project/vexor-video-sdk/"><img src="https://img.shields.io/pypi/v/vexor-video-sdk.svg?color=ea580c" alt="PyPI version"></a>
+  <a href="https://github.com/eyoblabs/-vexor-sdks/tree/main/packages/vexor-python"><img src="https://img.shields.io/badge/GitHub-eyoblabs%2F--vexor--sdks-black?logo=github" alt="GitHub Repository"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
+</p>
+
+<p align="center">
+  <a href="https://pypi.org/project/vexor-video-sdk/">PyPI Package</a> · 
+  <a href="https://github.com/eyoblabs/-vexor-sdks">GitHub Monorepo</a> · 
+  <a href="https://vexor-video.vercel.app/">VEXOR Console</a> · 
+  <a href="https://vexor-video.vercel.app/developers">Developer Documentation</a>
+</p>
 
 The official Python client for the [VEXOR](https://vexor-video.vercel.app/) video platform.
 
