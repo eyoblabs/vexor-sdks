@@ -1,8 +1,8 @@
 {
   "name": "@vexor-video/player",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Official React and Vanilla JS video player for Vexor encrypted HLS streaming.",
-  "author": "Vexor <support@vexor.et>",
+  "author": "Vexor Team <eyobgeremew618@gmail.com>",
   "license": "MIT",
   "homepage": "https://vexor-video.vercel.app/",
   "repository": {

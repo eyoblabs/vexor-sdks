@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.4
+
+- Point repository and issue tracker URLs to the dedicated public repository (`https://github.com/eyoblabs/vexor-sdks`).
+- Enrich package README and quickstart documentation.
+
 ## 0.1.3
 
 - Refresh the README branding and use the current VEXOR public site URL.

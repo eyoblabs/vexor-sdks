@@ -15,7 +15,7 @@
     "hls",
     "transcoding"
   ],
-  "author": "Vexor <support@vexor.et>",
+  "author": "Vexor Team <eyobgeremew618@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": ">=20.0.0"
