@@ -8,13 +8,13 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@vexor-video/player"><img src="https://img.shields.io/npm/v/@vexor-video/player.svg?color=ea580c" alt="npm version"></a>
-  <a href="https://github.com/eyoblabs/-vexor-sdks/tree/main/packages/player"><img src="https://img.shields.io/badge/GitHub-eyoblabs%2F--vexor--sdks-black?logo=github" alt="GitHub Repository"></a>
+  <a href="https://github.com/eyoblabs/vexor-sdks/tree/main/packages/player"><img src="https://img.shields.io/badge/GitHub-eyoblabs%2Fvexor--sdks-black?logo=github" alt="GitHub Repository"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
 </p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@vexor-video/player">npm Package</a> · 
-  <a href="https://github.com/eyoblabs/-vexor-sdks">GitHub Monorepo</a> · 
+  <a href="https://github.com/eyoblabs/vexor-sdks">GitHub Monorepo</a> · 
   <a href="https://vexor-video.vercel.app/">VEXOR Console</a> · 
   <a href="https://vexor-video.vercel.app/developers">Developer Documentation</a>
 </p>

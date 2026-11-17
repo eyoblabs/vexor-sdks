@@ -26,5 +26,5 @@ classifiers = [
 [project.urls]
 Homepage = "https://vexor-video.vercel.app/"
 Documentation = "https://vexor-video.vercel.app/developers"
-Repository = "https://github.com/eyoblabs/-vexor-sdks.git"
-Issues = "https://github.com/eyoblabs/-vexor-sdks/issues"
+Repository = "https://github.com/eyoblabs/vexor-sdks.git"
+Issues = "https://github.com/eyoblabs/vexor-sdks/issues"

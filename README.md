@@ -7,7 +7,7 @@
 <p align="center">Official client SDKs, UI components, and developer tooling for VEXOR video infrastructure.</p>
 
 <p align="center">
-  <a href="https://github.com/eyoblabs/-vexor-sdks/stargazers"><img src="https://img.shields.io/github/stars/eyoblabs/-vexor-sdks?style=social" alt="GitHub Stars"></a>
+  <a href="https://github.com/eyoblabs/vexor-sdks/stargazers"><img src="https://img.shields.io/github/stars/eyoblabs/vexor-sdks?style=social" alt="GitHub Stars"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <a href="https://vexor-video.vercel.app/"><img src="https://img.shields.io/badge/Platform-VEXOR-orange.svg" alt="Vexor Platform"></a>
   <a href="https://vexor-video.vercel.app/developers"><img src="https://img.shields.io/badge/Docs-Developer%20Portal-green.svg" alt="Developer Docs"></a>
@@ -148,7 +148,7 @@ Vexor streams video using AES-128 CBC byte-range HLS encryption. The player fetc
 
 - **Developer Documentation:** [vexor-video.vercel.app/developers](https://vexor-video.vercel.app/developers)
 - **API Reference:** [vexor-video.vercel.app/developers#api-reference](https://vexor-video.vercel.app/developers)
-- **Report an Issue:** [github.com/eyoblabs/-vexor-sdks/issues](https://github.com/eyoblabs/-vexor-sdks/issues)
+- **Report an Issue:** [github.com/eyoblabs/vexor-sdks/issues](https://github.com/eyoblabs/vexor-sdks/issues)
 - **Official Website:** [vexor-video.vercel.app](https://vexor-video.vercel.app)
 
 ---
